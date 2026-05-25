@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PeopleHub install</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #000;
+      --fg: #fff;
+      --muted: #b8b8b8;
+      --blue: #0078d7;
+      --green: #107c10;
+      --orange: #d83b01;
+      --panel: #111;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    main {
+      width: min(860px, calc(100vw - 40px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+    h1 {
+      margin: 0 0 28px;
+      font-size: clamp(56px, 15vw, 132px);
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: .9;
+    }
+    .version {
+      margin: 0 0 28px;
+      font-size: 28px;
+      color: var(--muted);
+    }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+    }
+    a.tile, section.tile {
+      min-height: 170px;
+      padding: 24px;
+      color: var(--fg);
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .android { background: var(--green); }
+    .desktop { background: var(--blue); }
+    .notes { background: var(--panel); }
+    .meta { background: var(--orange); }
+    .tile strong {
+      display: block;
+      font-size: 36px;
+      line-height: 1;
+    }
+    .tile span, .tile p {
+      margin: 18px 0 0;
+      color: rgba(255,255,255,.92);
+      font-size: 18px;
+      line-height: 1.28;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>people<br>hub</h1>
+    <p class="version">version 1.9.2</p>
+    <div class="tiles">
+      <a class="tile android" href="https://cataban.github.io/PeopleHubInstall/releases/v1.9.2/PeopleHubMobile-v1.9.2-android-arm64.apk">
+        <strong>android</strong>
+        <span>download PeopleHubMobile APK</span>
+      </a>
+      <a class="tile desktop" href="https://cataban.github.io/PeopleHubInstall/releases/v1.9.2/PeopleHub-v1.9.2-win-x64.zip">
+        <strong>desktop</strong>
+        <span>download Windows x64 package</span>
+      </a>
+      <section class="tile notes">
+        <strong>what's new</strong>
+        <p>**Full Changelog**: https://github.com/cataban/PeopleHub/compare/v1.9.1...v1.9.2</p>
+      </section>
+      <section class="tile meta">
+        <strong>release</strong>
+        <p>2026-05-25T06:06:10.2663033Z</p>
+      </section>
+    </div>
+    <p class="small">Android may ask you to allow installs from the browser before opening the APK.</p>
+  </main>
+</body>
+</html>
