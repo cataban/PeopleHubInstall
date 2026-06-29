@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "name": "PeopleHub",
-  "version": "2.0.8",
-  "tag": "v2.0.8",
-  "publishedAt": "2026-06-29T16:40:03.3146796Z",
+  "version": "2.0.9",
+  "tag": "v2.0.9",
+  "publishedAt": "2026-06-29T17:08:06.5511861Z",
   "installPageUrl": "https://cataban.github.io/PeopleHubInstall/",
-  "releaseNotes": "PeopleHub v2.0.8 is ready to install.",
+  "releaseNotes": "PeopleHub v2.0.9 is ready to install.",
   "desktop": {
     "platform": "win-x64",
-    "assetName": "PeopleHub-v2.0.8-win-x64.zip",
-    "downloadUrl": "https://cataban.github.io/PeopleHubInstall/releases/v2.0.8/PeopleHub-v2.0.8-win-x64.zip",
-    "sha256": "cff5610ff5746f6d446d1901a377b549aae6e5559dcf11d798e2228a457c2691"
+    "assetName": "PeopleHub-v2.0.9-win-x64.zip",
+    "downloadUrl": "https://cataban.github.io/PeopleHubInstall/releases/v2.0.9/PeopleHub-v2.0.9-win-x64.zip",
+    "sha256": "ec156a046c22961eb4a3a5e3b8e2a23352e898c920f0536f6ac5b8acaa65b242"
   },
   "android": {
     "platform": "android-arm64",
-    "assetName": "PeopleHubMobile-v2.0.8-android-arm64.apk",
-    "downloadUrl": "https://cataban.github.io/PeopleHubInstall/releases/v2.0.8/PeopleHubMobile-v2.0.8-android-arm64.apk",
-    "sha256": "b0091229e3be8c2463aa939da356a0e3dd073213615dbf191e7e61eb8518abea"
+    "assetName": "PeopleHubMobile-v2.0.9-android-arm64.apk",
+    "downloadUrl": "https://cataban.github.io/PeopleHubInstall/releases/v2.0.9/PeopleHubMobile-v2.0.9-android-arm64.apk",
+    "sha256": "4a3e99ecc1a08b59ad069e941edf9701bf751ca8c6ce54502203be5c1d56999f"
   }
 }
