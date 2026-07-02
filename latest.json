@@ -3,13 +3,13 @@
   "name": "PeopleHub",
   "version": "2.0.12",
   "tag": "v2.0.12",
-  "publishedAt": "2026-07-02T16:28:27.8028820Z",
+  "publishedAt": "2026-07-02T16:28:27.802882Z",
   "installPageUrl": "https://cataban.github.io/PeopleHubInstall/",
   "releaseNotes": "PeopleHub v2.0.12 is ready to install.",
   "desktop": {
     "platform": "win-x64",
     "assetName": "PeopleHub-v2.0.12-win-x64.zip",
-    "downloadUrl": "https://cataban.github.io/PeopleHubInstall/releases/v2.0.12/PeopleHub-v2.0.12-win-x64.zip",
+    "downloadUrl": "https://github.com/cataban/PeopleHub/releases/download/v2.0.12/PeopleHub-v2.0.12-win-x64.zip",
     "sha256": "2454de85c0b419eb82148ccf2dce7faba2cf0d043cf9a45cef00de8880654d28"
   },
   "android": {
